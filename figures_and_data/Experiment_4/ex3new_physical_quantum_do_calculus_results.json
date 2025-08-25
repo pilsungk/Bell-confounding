@@ -1,0 +1,131 @@
+{
+  "overall_success": false,
+  "entanglement_confirmed": true,
+  "observational": {
+    "correlation_confirmed": true,
+    "probabilities": {
+      "P(B=0|A=0)": 1.0,
+      "P(B=1|A=0)": 0.0,
+      "P(B=0|A=1)": 0.0,
+      "P(B=1|A=1)": 1.0,
+      "n_00": 5005.8,
+      "n_01": 0.0,
+      "n_10": 0.0,
+      "n_11": 4994.2
+    },
+    "confidence_intervals": {
+      "P(B=0|A=0)": [
+        0.9998465432369309,
+        1.0
+      ],
+      "P(B=0|A=1)": [
+        1.3552527156068805e-20,
+        0.00015381314139783603
+      ]
+    },
+    "p_values": {
+      "P(B=0|A=0)": 0.0,
+      "P(B=0|A=1)": 0.0
+    }
+  },
+  "interventions": {
+    "methods": [
+      "project_prepare",
+      "channel_replacement"
+    ],
+    "successful_interventions": 3,
+    "total_interventions": 4,
+    "details": [
+      {
+        "method": "project_prepare",
+        "target": 0,
+        "probabilities": {
+          "P(B=0|do(A=0))": 0.5013,
+          "P(B=1|do(A=0))": 0.49870000000000003
+        },
+        "confidence_intervals": {
+          "P(B=0|do(A=0))": [
+            0.49691747058497154,
+            0.5056823296745157
+          ]
+        },
+        "p_values": {
+          "P(B=0|do(A=0))": 0.564003702558612
+        },
+        "independence_achieved": true
+      },
+      {
+        "method": "project_prepare",
+        "target": 1,
+        "probabilities": {
+          "P(B=0|do(A=1))": 0.50076,
+          "P(B=1|do(A=1))": 0.49924
+        },
+        "confidence_intervals": {
+          "P(B=0|do(A=1))": [
+            0.4963775023202043,
+            0.5051423809084189
+          ]
+        },
+        "p_values": {
+          "P(B=0|do(A=1))": 0.737316051429154
+        },
+        "independence_achieved": true
+      },
+      {
+        "method": "channel_replacement",
+        "target": 0,
+        "probabilities": {
+          "P(B=0|do(A=0))": 0.50206,
+          "P(B=1|do(A=0))": 0.49794
+        },
+        "confidence_intervals": {
+          "P(B=0|do(A=0))": [
+            0.4976574353975102,
+            0.5064222511635313
+          ]
+        },
+        "p_values": {
+          "P(B=0|do(A=0))": 0.3639610004238224
+        },
+        "independence_achieved": true
+      },
+      {
+        "method": "channel_replacement",
+        "target": 1,
+        "probabilities": {
+          "P(B=0|do(A=1))": 0.49554,
+          "P(B=1|do(A=1))": 0.50446
+        },
+        "confidence_intervals": {
+          "P(B=0|do(A=1))": [
+            0.4911580726132156,
+            0.4999226126503897
+          ]
+        },
+        "p_values": {
+          "P(B=0|do(A=1))": 0.04657878426061517
+        },
+        "independence_achieved": false
+      }
+    ]
+  },
+  "no_signaling": {
+    "project_prepare": {
+      "P(B=0|do(A=0))": 0.5013,
+      "P(B=0|do(A=1))": 0.50076,
+      "difference": 0.0005399999999999849,
+      "p_value": 0.8644098434905136,
+      "no_signaling_respected": true
+    },
+    "channel_replacement": {
+      "P(B=0|do(A=0))": 0.50206,
+      "P(B=0|do(A=1))": 0.49554,
+      "difference": 0.00651999999999997,
+      "p_value": 0.03922572655470713,
+      "no_signaling_respected": false
+    }
+  },
+  "physical_implementation": true,
+  "quantum_do_calculus_demonstrated": true
+}

@@ -1,0 +1,57 @@
+{
+  "experiment_info": {
+    "experiment_name": "Ex1a: No Confounding - IonQ Hardware",
+    "execution_date": "2025-08-09T02:59:42.558400",
+    "backend_name": "ionq_qpu.aria-1",
+    "backend_type": "qpu",
+    "execution_mode": "batch",
+    "batch_jobs": 2,
+    "circuits_per_batch": 4,
+    "num_shots": 1000,
+    "num_trials": 2,
+    "measurement_settings": {
+      "a": 0,
+      "a_prime": 0.7853981633974483,
+      "b": 0.39269908169872414,
+      "b_prime": -0.39269908169872414
+    },
+    "api_version": "qiskit_ionq",
+    "total_measurements": 8000,
+    "cost_optimization": "batch_submission"
+  },
+  "s_value_distributions": {
+    "no_confounding": [
+      -0.43599999999999994,
+      -0.34600000000000003
+    ]
+  },
+  "summary_statistics": {
+    "s_mean_no_confounding": -0.391,
+    "s_std_no_confounding": 0.06363961030678922,
+    "s_ci_lower": -0.9627792131394437,
+    "s_ci_upper": 0.18077921313944367
+  },
+  "validation_checks": {
+    "classical_bound_respected": true,
+    "baseline_confirmed": true,
+    "expected_result": "S \u2248 0 (no confounding baseline)"
+  },
+  "raw_correlations": [
+    {
+      "trial": 0,
+      "S": -0.43599999999999994,
+      "E_ab": -0.78,
+      "E_ab_prime": 0.166,
+      "E_a_prime_b": 0.146,
+      "E_a_prime_b_prime": -0.032
+    },
+    {
+      "trial": 1,
+      "S": -0.34600000000000003,
+      "E_ab": -0.256,
+      "E_ab_prime": -0.16,
+      "E_a_prime_b": 0.246,
+      "E_a_prime_b_prime": 0.176
+    }
+  ]
+}

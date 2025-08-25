@@ -1,0 +1,873 @@
+{
+  "experiment_info": {
+    "experiment_name": "Experiment 7: Multi-Seed Quantum ML Confounding",
+    "timestamp": "2025-08-12T00:06:15.081958",
+    "n_seeds": 20,
+    "n_test_scenarios": 5,
+    "n_samples": 2000,
+    "test_size": 0.3
+  },
+  "multi_seed_accuracies": [
+    {
+      "seed": 42,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.554,
+          "causal_accuracy": 0.968
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.572,
+          "causal_accuracy": 0.986
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.716,
+          "causal_accuracy": 0.932
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.834,
+          "causal_accuracy": 0.968
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.966,
+          "causal_accuracy": 0.966
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.996,
+          "causal_accuracy": 0.996
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.964,
+          "causal_accuracy": 0.964
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.968,
+          "causal_accuracy": 0.968
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.966,
+          "causal_accuracy": 0.966
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.992,
+          "causal_accuracy": 0.992
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.498,
+          "causal_accuracy": 0.94
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.64,
+          "causal_accuracy": 0.994
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.734,
+          "causal_accuracy": 0.966
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.87,
+          "causal_accuracy": 0.992
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.982,
+          "causal_accuracy": 0.982
+        }
+      ]
+    },
+    {
+      "seed": 45,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.508,
+          "causal_accuracy": 0.894
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.602,
+          "causal_accuracy": 0.948
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.738,
+          "causal_accuracy": 0.992
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.872,
+          "causal_accuracy": 0.982
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.952,
+          "causal_accuracy": 0.952
+        }
+      ]
+    },
+    {
+      "seed": 46,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.502,
+          "causal_accuracy": 0.924
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.64,
+          "causal_accuracy": 0.976
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.736,
+          "causal_accuracy": 0.982
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.832,
+          "causal_accuracy": 0.952
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.92,
+          "causal_accuracy": 0.92
+        }
+      ]
+    },
+    {
+      "seed": 47,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.996,
+          "causal_accuracy": 0.996
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.988,
+          "causal_accuracy": 0.988
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.952,
+          "causal_accuracy": 0.952
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.92,
+          "causal_accuracy": 0.92
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.994,
+          "causal_accuracy": 0.994
+        }
+      ]
+    },
+    {
+      "seed": 48,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.998,
+          "causal_accuracy": 0.998
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.982,
+          "causal_accuracy": 0.982
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.92,
+          "causal_accuracy": 0.92
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.994,
+          "causal_accuracy": 0.994
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.936,
+          "causal_accuracy": 0.936
+        }
+      ]
+    },
+    {
+      "seed": 49,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.95,
+          "causal_accuracy": 0.95
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.924,
+          "causal_accuracy": 0.924
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.994,
+          "causal_accuracy": 0.994
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.936,
+          "causal_accuracy": 0.936
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.988,
+          "causal_accuracy": 0.988
+        }
+      ]
+    },
+    {
+      "seed": 50,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.944,
+          "causal_accuracy": 0.944
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.878,
+          "causal_accuracy": 0.878
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.936,
+          "causal_accuracy": 0.936
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.988,
+          "causal_accuracy": 0.988
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.916,
+          "causal_accuracy": 0.916
+        }
+      ]
+    },
+    {
+      "seed": 51,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.534,
+          "causal_accuracy": 0.908
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.558,
+          "causal_accuracy": 0.928
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.75,
+          "causal_accuracy": 0.988
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.81,
+          "causal_accuracy": 0.916
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.988,
+          "causal_accuracy": 0.988
+        }
+      ]
+    },
+    {
+      "seed": 52,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.514,
+          "causal_accuracy": 0.878
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.616,
+          "causal_accuracy": 0.904
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.73,
+          "causal_accuracy": 0.916
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.868,
+          "causal_accuracy": 0.988
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.896,
+          "causal_accuracy": 0.896
+        }
+      ]
+    },
+    {
+      "seed": 53,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.926,
+          "causal_accuracy": 0.926
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.906,
+          "causal_accuracy": 0.906
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.988,
+          "causal_accuracy": 0.988
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.896,
+          "causal_accuracy": 0.896
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.944,
+          "causal_accuracy": 0.944
+        }
+      ]
+    },
+    {
+      "seed": 54,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.478,
+          "causal_accuracy": 0.954
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.598,
+          "causal_accuracy": 0.99
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.678,
+          "causal_accuracy": 0.896
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.832,
+          "causal_accuracy": 0.944
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.996,
+          "causal_accuracy": 0.996
+        }
+      ]
+    },
+    {
+      "seed": 55,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.99,
+          "causal_accuracy": 0.99
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.97,
+          "causal_accuracy": 0.97
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.944,
+          "causal_accuracy": 0.944
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.996,
+          "causal_accuracy": 0.996
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.912,
+          "causal_accuracy": 0.912
+        }
+      ]
+    },
+    {
+      "seed": 56,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.902,
+          "causal_accuracy": 0.902
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.934,
+          "causal_accuracy": 0.934
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.996,
+          "causal_accuracy": 0.996
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.912,
+          "causal_accuracy": 0.912
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.914,
+          "causal_accuracy": 0.914
+        }
+      ]
+    },
+    {
+      "seed": 57,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.514,
+          "causal_accuracy": 0.994
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.604,
+          "causal_accuracy": 0.902
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.712,
+          "causal_accuracy": 0.912
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.82,
+          "causal_accuracy": 0.914
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.924,
+          "causal_accuracy": 0.924
+        }
+      ]
+    },
+    {
+      "seed": 58,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.96,
+          "causal_accuracy": 0.96
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.976,
+          "causal_accuracy": 0.976
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.914,
+          "causal_accuracy": 0.914
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.924,
+          "causal_accuracy": 0.924
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.92,
+          "causal_accuracy": 0.92
+        }
+      ]
+    },
+    {
+      "seed": 59,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.91,
+          "causal_accuracy": 0.91
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.932,
+          "causal_accuracy": 0.932
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.924,
+          "causal_accuracy": 0.924
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.92,
+          "causal_accuracy": 0.92
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.944,
+          "causal_accuracy": 0.944
+        }
+      ]
+    },
+    {
+      "seed": 60,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.498,
+          "causal_accuracy": 0.972
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.596,
+          "causal_accuracy": 0.954
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.71,
+          "causal_accuracy": 0.92
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.81,
+          "causal_accuracy": 0.944
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.912,
+          "causal_accuracy": 0.912
+        }
+      ]
+    },
+    {
+      "seed": 61,
+      "training_accuracy": {
+        "naive": 1.0,
+        "causal": 1.0
+      },
+      "test_scenarios": [
+        {
+          "scenario_id": 0,
+          "confounding_strength": 0.0,
+          "naive_accuracy": 0.902,
+          "causal_accuracy": 0.902
+        },
+        {
+          "scenario_id": 1,
+          "confounding_strength": 0.25,
+          "naive_accuracy": 0.996,
+          "causal_accuracy": 0.996
+        },
+        {
+          "scenario_id": 2,
+          "confounding_strength": 0.5,
+          "naive_accuracy": 0.944,
+          "causal_accuracy": 0.944
+        },
+        {
+          "scenario_id": 3,
+          "confounding_strength": 0.75,
+          "naive_accuracy": 0.912,
+          "causal_accuracy": 0.912
+        },
+        {
+          "scenario_id": 4,
+          "confounding_strength": 1.0,
+          "naive_accuracy": 0.938,
+          "causal_accuracy": 0.938
+        }
+      ]
+    }
+  ],
+  "statistical_analysis": {
+    "scenario_analysis": {
+      "scenario_0": {
+        "confounding_strength": 0.0,
+        "causal_mean": 0.9453000000000001,
+        "causal_std": 0.03757272947231807,
+        "naive_mean": 0.7536999999999999,
+        "naive_std": 0.22157461497202247,
+        "mean_difference": 0.19160000000000021,
+        "t_statistic": 3.9074795005429843,
+        "p_value": 0.0009465014912027921,
+        "cohen_d": 0.873738978390104,
+        "significant": true
+      },
+      "scenario_1": {
+        "confounding_strength": 0.25,
+        "causal_mean": 0.9515999999999998,
+        "causal_std": 0.03508047890209025,
+        "naive_mean": 0.7938000000000001,
+        "naive_std": 0.17558576252076932,
+        "mean_difference": 0.15779999999999972,
+        "t_statistic": 3.9010301364863906,
+        "p_value": 0.0009605471111439695,
+        "cohen_d": 0.8722968567458852,
+        "significant": true
+      },
+      "scenario_2": {
+        "confounding_strength": 0.5,
+        "causal_mean": 0.9492,
+        "causal_std": 0.031764130713746896,
+        "naive_mean": 0.8492,
+        "naive_std": 0.11716040286718035,
+        "mean_difference": 0.10000000000000009,
+        "t_statistic": 3.9114428033252304,
+        "p_value": 0.0009379720117827683,
+        "cohen_d": 0.8746251998337554,
+        "significant": true
+      },
+      "scenario_3": {
+        "confounding_strength": 0.75,
+        "causal_mean": 0.9481999999999999,
+        "causal_std": 0.03259386445329855,
+        "naive_mean": 0.8956,
+        "naive_std": 0.05985515850785127,
+        "mean_difference": 0.05259999999999998,
+        "t_statistic": 3.904145738941317,
+        "p_value": 0.0009537360652000095,
+        "cohen_d": 0.8729935266338932,
+        "significant": true
+      },
+      "scenario_4": {
+        "confounding_strength": 1.0,
+        "causal_mean": 0.9466999999999999,
+        "causal_std": 0.03233743960179901,
+        "naive_mean": 0.9466999999999999,
+        "naive_std": 0.03233743960179901,
+        "mean_difference": 0.0,
+        "t_statistic": NaN,
+        "p_value": NaN,
+        "cohen_d": NaN,
+        "significant": false
+      }
+    },
+    "overall": {
+      "causal_mean": 0.9482,
+      "causal_std": 0.03400764619905351,
+      "naive_mean": 0.8478000000000001,
+      "naive_std": 0.15628141284234667,
+      "mean_difference": 0.10039999999999993,
+      "t_statistic": 6.541174759125572,
+      "p_value": 2.7020148717978442e-09,
+      "cohen_d": 0.6541174759125569,
+      "significant": true
+    }
+  },
+  "summary": {
+    "causal_outperforms_naive": true,
+    "p_value": 2.7020148717978442e-09,
+    "cohen_d": 0.6541174759125569,
+    "mean_improvement": 0.10039999999999993
+  }
+}
