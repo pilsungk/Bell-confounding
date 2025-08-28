@@ -1,6 +1,6 @@
 # Quantum Entanglement as Super-Confounding: From Bell's Theorem to Robust Machine Learning
 
-This repository contains the official source code and data for the paper, "Quantum Entanglement as Super-Confounding: From Bell's Theorem to Robust Machine Learning".
+This repository contains the official source code and data for the paper, "Quantum Entanglement as Super-Confounding: From Bell's Theorem to Robust Machine Learning" ([paper at arxiv](https://arxiv.org/abs/2508.19327)).
 
 ## Abstract
 
@@ -70,8 +70,13 @@ This project is licensed under the MIT License.
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
-<!---
 ### Citation
-If you find this work useful, please cite our paper:
-
--->
+@misc{kang2025quantumentanglementsuperconfoundingbells,
+      title={Quantum Entanglement as Super-Confounding: From Bell's Theorem to Robust Machine Learning},
+      author={Pilsung Kang},
+      year={2025},
+      eprint={2508.19327},
+      archivePrefix={arXiv},
+      primaryClass={quant-ph},
+      url={https://arxiv.org/abs/2508.19327},
+}
